@@ -1,0 +1,189 @@
+
+
+@font-face {
+  font-family:'Roboto' ;
+  src: url("../fonts/Roboto-Regular.woff") format('woff');
+  src: url("../fonts/Roboto-BoldItalic.woff") format('woff');
+  font-weight: 700;
+}
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth;
+  background-color:rgb(136, 194, 177);
+  color:#121212;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+
+.header {
+  min-width: 70rem;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  text-align: center;
+  background: rgb(49, 196, 93);
+  background: linear-gradient(0deg, rgb(49, 196, 74) 41%, rgba(180,111,199,1) 92%); 
+  color: #9d0daa;
+  }
+.header-title{
+  color: rgb(167, 51, 22);
+  text-align:center;
+  font-size: 2rem;
+}
+
+/*Info"*/
+
+.info {
+ 
+  margin-bottom: 680px;
+    background-color: rgba(202, 9, 138, 0.65);
+    text-align: center;
+    color: #0c0b0b;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #ad1919;
+}
+
+  /*audio*/
+ 
+  h2,h1 {
+    text-align: center;
+  }
+  .section{
+    text-align: center;
+    margin:0 auto;
+}
+.wrapper{
+    width:450px;
+    height:450px;
+    margin:0 auto;
+    position: relative;
+}
+.wrapper .cell{
+    background-color: aliceblue;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    float: left;
+    font-size: 100px;
+    height: 148px;
+    text-align: center;
+    width: 148px;
+}
+.wrapper .cell.victory{
+    background-color: #e96e6e;
+}
+.statistics{
+    font-weight: bold;
+    text-align: center;
+}
+.score{
+    text-align: center;
+    margin-bottom:20px;
+}
+.restart{
+    text-align: center;
+    padding-top: 20px;
+}
+.restart a{
+    display:inline-block;
+    padding:10px 20px;
+    background-color: brown;
+    color:#fff;
+}
+.rez_war{
+    background-color: brown;
+    padding: 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    width: 100%;
+    display: none;
+}
+.rez_war p{
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rez_war_no{
+    background-color: darkolivegreen;
+    padding: 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    width: 100%;
+    display: none;
+}
+.rez_text_no{
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.victory{
+    text-align: center;
+    color: #8f1717;
+    background-color: brown;
+    padding: 30px 0;
+    font-size: 35px;
+    position: absolute;
+    width: 100%;
+    top: 39%;
+    display: none;
+}
+      /*Крестики-нолики2*/
+
+
+
+
+
+
+      
+  /*footer*/
+.footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(49, 196, 93);
+  background: linear-gradient(0deg, rgb(49, 196, 74) 41%, rgba(180,111,199,1) 92%); 
+  color: #9d0daa;
+  text-align: right;
+  font-size: 28px;
+  bottom: 0;
+}
+.footer-v {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+}
+.footer p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+
